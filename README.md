@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+Technical Exam: Travel Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application helps you plan your travel journey with friends across different villages. You can input the number of coins and friends, and it simulates your travel progress until you reach your destination or run out of coins.
 
-Currently, two official plugins are available:
+Features
+Input Fields: Enter the number of coins and friends traveling with you.
+Travel Simulation: Simulates your journey across villages based on the number of coins entered.
+Continued Travel: Allows you to continue your journey by inputting coins borrowed from friends.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies Used
+React: Front-end framework for building user interfaces.
+React Toastify: Used for displaying notifications and alerts.
+CSS: Simple styling for layout and input fields.
 
-## Expanding the ESLint configuration
+How to Use
+Enter the number of coins and friends traveling with you.
+Click on the Travel button to simulate your journey.
+If you run out of coins, input borrowed coins from friends and click Continue Travel.
+View your journey details and current position on the right-hand side.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Getting Started
+To run this application locally:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Clone this repository.
+Install dependencies using npm install.
+Start the development server using npm run dev.
