@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+.container {
+  display: flex;
+  font-family: "Inter", sans-serif;
+}
+.cardLeft {
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+}
+.cardRight {
+  width: 50%;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.input {
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.button {
+  margin: 1rem 0;
+  padding: 0.8em 0.8em;
+  font-size: 16px;
+
+  border-radius: 5px;
+  border: none;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #218838;
+}
+.travel {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 1rem 0;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+  max-width: 500px;
+  text-align: center;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
